@@ -4,7 +4,8 @@ import {
   FacebookShareButton,
   TwitterShareButton,
   LinkedinShareButton,
-  EmailShareButton
+  EmailShareButton,
+
 } from 'react-share'
 import attachSocialIcons from '@helpers/attachSocialIcons'
 

@@ -14,18 +14,16 @@ const PageContact = props => (
     <Stack>
       <Main>
         <PageTitle
-          header="Let's Connect"
-          subheader='FlexiBlog theme comes with a pre-made contact form component.
-					You can integrate this form with serverless services such as Formspree, Getform,
-					FormKeep and others to receive form submissions via email.'
+          header="Liên Hệ"
+          subheader='Chúng tôi cam kết hỗ trợ khách hàng tận tâm, giải đáp mọi thắc mắc và xử lý nhanh chóng mọi yêu cầu liên quan đến sản phẩm và dịch vụ.'
         />
         <Divider />
         <ContactForm />
       </Main>
       <Sidebar>
         <Commitment />
-        <Divider />
-        <ContactInfo />
+        {/* <Divider /> */}
+        {/* <ContactInfo /> */}
       </Sidebar>
     </Stack>
   </Layout>

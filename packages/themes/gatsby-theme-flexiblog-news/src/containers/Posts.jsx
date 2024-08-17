@@ -39,9 +39,9 @@ const Posts = ({
         />
       </Stack>
       <Divider />
-      <Hero sx={{ bg: `contentBg` }}>
+      {/* <Hero sx={{ bg: `contentBg` }}>
         <HeroComponent />
-      </Hero>
+      </Hero> */}
       <Divider />
       {posts.group.length &&
         posts.group.map((group, index) => (

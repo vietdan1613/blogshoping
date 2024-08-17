@@ -21,16 +21,20 @@ module.exports = {
     //Site Social Media Links
     social: [
       {
-        name: 'Github',
+        name: 'Facebook',
         url: 'https://github.com/gatsbyjs'
       },
       {
-        name: 'Twitter',
+        name: 'Tiktok',
         url: 'https://twitter.com/gatsbyjs'
       },
       {
         name: 'Instagram',
         url: 'https://github.com/gatsbyjs'
+      },
+      {
+        name: 'Youtube',
+        url: 'https://www.youtube.com/@treecy2024'
       }
     ],
 
@@ -41,11 +45,11 @@ module.exports = {
         slug: '/'
       },
       {
-        name: 'Our Team',
+        name: 'Treecy',
         slug: '/authors'
       },
       {
-        name: 'Contact',
+        name: 'Liên hệ',
         slug: '/contact'
       }
     ],
@@ -53,35 +57,35 @@ module.exports = {
     //Footer Menu Items (2 Sets)
     footerMenu: [
       {
-        title: 'Quick Links',
+        title: 'Truy Cập Nhanh',
         items: [
           {
-            name: 'Advertise with us',
+            name: 'Liên Hệ',
             slug: '/contact'
           },
           {
-            name: 'About Us',
+            name: 'Treecy',
             slug: '/about'
           },
           {
-            name: 'Contact Us',
+            name: 'Quảng cáo',
             slug: '/contact'
           }
         ]
       },
       {
-        title: 'Legal Stuff',
+        title: 'Vấn Đề Pháp Lý',
         items: [
           {
-            name: 'Privacy Notice',
+            name: 'Quyền Riêng Tư',
             slug: '/'
           },
           {
-            name: 'Cookie Policy',
+            name: 'Chính Sách Cookie',
             slug: '/'
           },
           {
-            name: 'Terms Of Use',
+            name: 'Điều Khoản Của Chúng Tôi',
             slug: '/'
           }
         ]
