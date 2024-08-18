@@ -18,7 +18,7 @@ const Posts = ({
       <Divider />
       <Stack effectProps={{ effect: false }}>
         <CardList
-          nodes={featuredPosts.nodes}
+          nodes={recentPosts.nodes}
           limit={3}
           columns={[1, 2, 3]}
           variant={['horizontal-md', 'vertical-cover']}
