@@ -19,7 +19,7 @@ const Posts = ({
       <Stack effectProps={{ effect: false }}>
         <CardList
           nodes={recentPosts.nodes}
-          limit={3}
+          limit={5}
           columns={[1, 2, 3]}
           variant={['horizontal-md', 'vertical-cover']}
           title="Bài Viết Trong Tuần"
