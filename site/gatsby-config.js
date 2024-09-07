@@ -41,17 +41,17 @@ module.exports = {
     //Header Menu Items
     headerMenu: [
       {
-        name: 'Home',
+        name: 'Trang Chủ',
         slug: '/'
       },
       {
-        name: 'Treecy',
+        name: 'Liên hệ',
         slug: '/authors'
       },
-      {
-        name: 'Liên hệ',
-        slug: '/contact'
-      }
+      // {
+      //   name: 'Liên hệ',
+      //   slug: '/contact'
+      // }
     ],
 
     //Footer Menu Items (2 Sets)
